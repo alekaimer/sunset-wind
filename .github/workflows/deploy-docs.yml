@@ -6,6 +6,7 @@ on:
       - release
     branches-ignore:
       - main
+      - develop
 
 jobs:
   build-and-deploy:
@@ -25,7 +26,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: ixMgeaBSxL5cgW1xQbdttov1
+          TURBO_TOKEN: ${{ secrets.SUNSET_UI_TURBO_TOKEN }}
           TURBO_TEAM: a2softhouse
 
       - name: Deploy storybook
