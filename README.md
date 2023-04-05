@@ -36,7 +36,9 @@ Para efetivar suas alterações
 npm run version-packages
 ```
 
-Para publicar no NPM
+_A publicação no NPM é realizada por automação no Github Actions assim que um novo push for enviado para a `branch release`._
+
+Para forçar a publicação no NPM, caso seja necessário:
 
 ```
 npm run publish-release
