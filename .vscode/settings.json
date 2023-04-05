@@ -1,0 +1,10 @@
+{
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.autoIndent": "full",
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all"
+}
