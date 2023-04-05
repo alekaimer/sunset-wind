@@ -25,7 +25,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: ${{ secrets.VERCEL_SUNSET_UI_CI_CD_TOKEN }}
+          TURBO_TOKEN: ixMgeaBSxL5cgW1xQbdttov1
           TURBO_TEAM: a2softhouse
 
       - name: Deploy storybook
