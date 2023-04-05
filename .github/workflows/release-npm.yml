@@ -6,6 +6,7 @@ on:
       - release
     branches-ignore:
       - main
+      - develop
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -34,5 +35,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.SUNSET_UI_NPM_TOKEN }}
-          TURBO_TOKEN: ixMgeaBSxL5cgW1xQbdttov1
+          TURBO_TOKEN: ${{ secrets.SUNSET_UI_TURBO_TOKEN }}
           TURBO_TEAM: a2softhouse
