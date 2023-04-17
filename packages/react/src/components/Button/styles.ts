@@ -1,7 +1,6 @@
-import { ComponentProps, ElementType } from 'react'
-import { styled } from '../styles'
+import { styled } from '../../styles'
 
-export const Button = styled('button', {
+export const ButtonContainer = styled('button', {
   all: 'unset',
   borderRadius: '$sm',
   fontSize: '$sm',
@@ -10,12 +9,13 @@ export const Button = styled('button', {
   textAlign: 'center',
   minWidth: 120,
   boxSizing: 'border-box',
-  padding: '0 $4',
 
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   gap: '$2',
+
+  transition: 'background-color 0.2s, color 0.2s',
 
   cursor: 'pointer',
 
@@ -44,44 +44,45 @@ export const Button = styled('button', {
 
         '&:disabled': {
           backgroundColor: '$gray200',
+          cursor: 'not-allowed',
         },
       },
-
       secondary: {
         color: '$primary300',
         border: '2px solid $primary500',
 
         '&:not(:disabled):hover': {
           background: '$primary500',
-          color: '$white',
+          color: '#FFF',
         },
 
         '&:disabled': {
-          color: '$gray200',
           borderColor: '$gray200',
+          color: '$gray200',
+          cursor: 'not-allowed',
         },
       },
-
       tertiary: {
         color: '$gray100',
 
         '&:not(:disabled):hover': {
-          color: '$white',
+          color: '#FFF',
         },
 
         '&:disabled': {
           color: '$gray600',
+          cursor: 'not-allowed',
         },
       },
     },
-
     size: {
-      sm: {
-        height: 38,
-      },
-
       md: {
+        padding: '0 $4',
         height: 46,
+      },
+      sm: {
+        padding: '0 $4',
+        height: 38,
       },
     },
   },
@@ -91,9 +92,3 @@ export const Button = styled('button', {
     size: 'md',
   },
 })
-
-export interface ButtonProps extends ComponentProps<typeof Button> {
-  as?: ElementType
-}
-
-Button.displayName = 'Button'
