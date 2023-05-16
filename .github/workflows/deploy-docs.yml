@@ -1,4 +1,4 @@
-name: Deploy docs to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -25,9 +25,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
-        env:
-          TURBO_TOKEN: ${{ secrets.SUNSET_WIND_TURBO_TOKEN }}
-          TURBO_TEAM: a2softhouse
+        # env:
+        #   TURBO_TOKEN: ${{ secrets.SUNSET_WIND_TURBO_TOKEN }}
+        #   TURBO_TEAM: a2softhouse
 
       - name: Deploy storybook
         working-directory: ./packages/docs
