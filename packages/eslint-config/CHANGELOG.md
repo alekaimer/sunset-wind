@@ -1,4 +1,4 @@
-# @sunset-wind/react
+# @sunset-wind/eslint-config
 
 ## 1.1.1
 
@@ -12,14 +12,8 @@
 
 - Fix version to publish NPM
 
-## 1.0.1
-
-### Patch Changes
-
-- Fix version to publish npm
-
 ## 1.0.0
 
 ### Major Changes
 
-- Start a version control with changeset
+- Fix version to publish npm
