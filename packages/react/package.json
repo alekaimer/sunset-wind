@@ -6,14 +6,8 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build:ts": "tsup src/index.tsx --format esm,cjs --dts --external react",
-    "build:tw": "npx tailwindcss -i src/styles/styles.css -o dist/styles.css",
-    "build_old": "npm run build:tw && npm run build:ts",
-    "dev:ts": "tsup src/index.tsx --format esm,cjs --dts --external react",
-    "dev:tw": "npx tailwindcss -i src/styles/styles.css -o dist/styles.css",
-    "dev_old": "npm run dev:tw && npm run dev:ts",
-    "build": "npx tailwindcss -i src/styles/styles.css -o dist/styles.css && tsup src/index.tsx --format esm,cjs --dts --external react",
-    "dev": "npx tailwindcss -i src/styles/styles.css -o dist/styles.css && tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "build": "tailwindcss -i src/styles/styles.css -o dist/styles.css && tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tailwindcss -i src/styles/styles.css -o dist/styles.css && tsup src/index.tsx --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
