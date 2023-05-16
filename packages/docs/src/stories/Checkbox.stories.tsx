@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Checkbox, CheckboxProps } from '@sunset-ui/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@sunset-wind/react'
 
 export default {
   title: 'Form/Checkbox',

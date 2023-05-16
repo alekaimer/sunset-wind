@@ -1,5 +1,5 @@
 {
-  "name": "@sunset-ui/tokens",
+  "name": "@sunset-wind/tokens",
   "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@sunset-ui/ts-config": "*",
-    "@sunset-ui/eslint-config": "*",
+    "@sunset-wind/ts-config": "*",
+    "@sunset-wind/eslint-config": "*",
     "tsup": "^6.2.3",
     "typescript": "^4.8.4"
   }

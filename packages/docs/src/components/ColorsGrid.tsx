@@ -1,4 +1,4 @@
-import { colors } from '@sunset-ui/tokens'
+import { colors } from '@sunset-wind/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

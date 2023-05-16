@@ -1,5 +1,5 @@
 {
-  "name": "@sunset-ui/react",
+  "name": "@sunset-wind/react",
   "version": "1.0.2",
   "description": "",
   "main": "./dist/index.js",
@@ -20,9 +20,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@sunset-ui/eslint-config": "*",
-    "@sunset-ui/tokens": "*",
-    "@sunset-ui/ts-config": "*",
+    "@sunset-wind/eslint-config": "*",
+    "@sunset-wind/tokens": "*",
+    "@sunset-wind/ts-config": "*",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",

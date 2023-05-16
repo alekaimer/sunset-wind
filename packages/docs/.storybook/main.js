@@ -15,7 +15,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/sunset-ui/'
+      config.base = '/sunset-wind/'
     }
 
     return config

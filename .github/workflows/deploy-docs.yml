@@ -26,7 +26,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: ${{ secrets.SUNSET_UI_TURBO_TOKEN }}
+          TURBO_TOKEN: ${{ secrets.SUNSET_WIND_TURBO_TOKEN }}
           TURBO_TEAM: a2softhouse
 
       - name: Deploy storybook

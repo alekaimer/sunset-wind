@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { TextWind, TextWindProps } from '@sunset-ui/react'
+import { TextWind, TextWindProps } from '@sunset-wind/react'
 
 export default {
   title: 'Typography/TextWind',

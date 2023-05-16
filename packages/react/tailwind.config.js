@@ -8,7 +8,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@sunset-ui/tokens'
+} from '@sunset-wind/tokens'
 
 module.exports = {
   content: ['./src/**/*.tsx'],

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Avatar, AvatarProps } from '@sunset-ui/react'
+import { Avatar, AvatarProps } from '@sunset-wind/react'
 
 export default {
   title: 'Data display/Avatar',

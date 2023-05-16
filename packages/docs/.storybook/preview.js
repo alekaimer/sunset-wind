@@ -1,7 +1,7 @@
 import { themes } from '@storybook/theming'
 
-import '@sunset-ui/react/dist/styles.css'
-// import '@sunset-ui/react/src/styles/styles.css'
+import '@sunset-wind/react/dist/styles.css'
+// import '@sunset-wind/react/src/styles/styles.css'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },

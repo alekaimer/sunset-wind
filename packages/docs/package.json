@@ -1,5 +1,5 @@
 {
-  "name": "@sunset-ui/docs",
+  "name": "@sunset-wind/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -27,10 +27,10 @@
     "vite": "^3.1.4"
   },
   "dependencies": {
-    "@sunset-ui/eslint-config": "*",
-    "@sunset-ui/react": "*",
-    "@sunset-ui/tokens": "*",
-    "@sunset-ui/ts-config": "*",
+    "@sunset-wind/eslint-config": "*",
+    "@sunset-wind/react": "*",
+    "@sunset-wind/tokens": "*",
+    "@sunset-wind/ts-config": "*",
     "@storybook/addon-a11y": "^6.5.12",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

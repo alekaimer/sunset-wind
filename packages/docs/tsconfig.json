@@ -1,4 +1,4 @@
 {
-  "extends": "@sunset-ui/ts-config/react.json",
+  "extends": "@sunset-wind/ts-config/react.json",
   "include": ["src"]
 }

@@ -1,4 +1,4 @@
-# @sunset-ui/tokens
+# @sunset-wind/tokens
 
 ## 1.0.1
 

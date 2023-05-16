@@ -1,4 +1,4 @@
-# @sunset-ui/react
+# @sunset-wind/react
 
 ## 1.0.2
 
