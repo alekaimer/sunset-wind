@@ -1,13 +1,15 @@
-import { ComponentProps, ElementType, ReactNode } from 'react'
-import { TextContainer } from './styles'
+import { ComponentProps, ReactNode } from 'react'
 
-export interface TextProps extends ComponentProps<typeof TextContainer> {
+export interface TextProps extends ComponentProps<'p'> {
   children: ReactNode
-  as?: ElementType
 }
 
-export function Text(props: TextProps) {
-  return <TextContainer {...props} />
+export function Text({ children, ...props }: TextProps) {
+  return (
+    <p className="text-red-700" {...props}>
+      {children}
+    </p>
+  )
 }
 
 Text.displayName = 'Text'

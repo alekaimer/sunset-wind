@@ -1,4 +1,6 @@
-# Sunset UI
+under construction
+
+<!-- # Sunset UI
 
 Pacote de interface visual para os aplicativos da A2labs.
 
@@ -71,4 +73,4 @@ O deploy da aplicação se dá no NPM e da documentação no GH Pages:
 - Solicitar PR para a branch `release`;
 - Na aprovação da PR para a branch `release`, se tudo ok, versionar com o Changeset (tópico acima);
 - Aprovar PR com o versionamento para a branch `release`;
-- Após as Actions terminarem com resultados positivos, fazer merge da branch `realease` para a branch `main`.
+- Após as Actions terminarem com resultados positivos, fazer merge da branch `realease` para a branch `main`. -->
