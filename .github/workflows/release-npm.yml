@@ -1,18 +1,17 @@
-# name: Release/Publish to NPM
+name: Publish to NPM
 
-# on:
-#   push:
-#     branch:
-#       - release
-#     branches-ignore:
-#       - main
-#       - develop
-
+on:
+  push:
+    branch:
+      - release
+    branches-ignore:
+      - main
+      - develop
 # concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 # jobs:
 #   release:
-#     name: Release/Publish NPM
+#     name: Publish NPM
 #     runs-on: ubuntu-latest
 #     steps:
 #       - name: Checkout Repo
