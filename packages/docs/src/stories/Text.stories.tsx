@@ -14,6 +14,7 @@ export const Primary: StoryObj<TextProps> = {}
 
 export const CustomTag: StoryObj<TextProps> = {
   args: {
-    children: 'Custom wind text',
+    children: 'Custom wind text witg span tag.',
+    tagName: 'span',
   },
 }
