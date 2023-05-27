@@ -1,5 +1,11 @@
 # @sunset-wind/tokens
 
+## 1.2.0
+
+### Minor Changes
+
+- Add Button, refactor Text and change color tokens
+
 ## 1.1.1
 
 ### Patch Changes
