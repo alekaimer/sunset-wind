@@ -9,7 +9,7 @@ export function Text({ children, tagName, ...props }: TextProps) {
   const Component = (tagName as React.ElementType) || 'p'
 
   return (
-    <Component className="text-cyan-500" {...props}>
+    <Component className="text-gray-400" {...props}>
       {children}
     </Component>
   )
