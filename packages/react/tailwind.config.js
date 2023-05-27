@@ -13,16 +13,16 @@ import {
 module.exports = {
   content: ['./src/**/*.tsx'],
   theme: {
-    extend: {
-      color: colors,
-      font: fonts,
-      fontSize: fontSizes,
-      fontWeight: fontWeights,
-      lineHeight: lineHeights,
-      margin: space,
-      padding: space,
-      borderRadius: radii,
-    },
+    fontSize: fontSizes,
+    colors: colors,
+    fontWeight: fontWeights,
+    fontFamily: fonts,
+    lineHeight: lineHeights,
+    margin: space,
+    padding: space,
+    borderRadius: radii,
+    // extend: {
+    // },
   },
   plugins: [],
 }
