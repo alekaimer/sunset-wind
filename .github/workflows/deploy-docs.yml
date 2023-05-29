@@ -30,7 +30,7 @@ jobs:
         #   TURBO_TEAM: a2softhouse
 
       - name: Deploy storybook
-        working-directory: ./packages/docs
+        working-directory: ./app/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static --source-branch=release
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}

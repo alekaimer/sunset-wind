@@ -1,5 +1,11 @@
 # @sunset-wind/ts-config
 
+## 1.2.0
+
+### Minor Changes
+
+- Change Storybook docs folder
+
 ## 1.1.2
 
 ### Patch Changes
