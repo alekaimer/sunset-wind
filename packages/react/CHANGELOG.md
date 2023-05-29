@@ -1,5 +1,11 @@
 # @sunset-wind/react
 
+## 1.2.2
+
+### Patch Changes
+
+- test
+
 ## 1.2.1
 
 ### Patch Changes
