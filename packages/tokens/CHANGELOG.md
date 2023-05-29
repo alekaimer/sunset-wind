@@ -1,5 +1,11 @@
 # @sunset-wind/tokens
 
+## 1.3.0
+
+### Minor Changes
+
+- Change Storybook docs folder
+
 ## 1.2.1
 
 ### Patch Changes
