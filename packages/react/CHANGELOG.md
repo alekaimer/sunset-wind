@@ -1,5 +1,11 @@
 # @sunset-wind/react
 
+## 1.3.1
+
+### Patch Changes
+
+- Add className as prop in Text component
+
 ## 1.3.0
 
 ### Minor Changes
