@@ -8,6 +8,19 @@ export default {
     children:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
   },
+  argTypes: {
+    tagName: {
+      control: {
+        type: 'select',
+        options: ['p', 'span'],
+      },
+    },
+    className: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<TextProps>
 
 export const Primary: StoryObj<TextProps> = {}
