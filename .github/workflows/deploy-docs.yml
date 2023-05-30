@@ -19,15 +19,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          # cache: 'npm'
-          # cache-dependency-path: '**/package-lock.json'
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
 
       - run: npm ci
 
       - run: npm run build
-        # env:
-        #   TURBO_TOKEN: ${{ secrets.SUNSET_WIND_TURBO_TOKEN }}
-        #   TURBO_TEAM: a2softhouse
+        env:
+          TURBO_TOKEN: ${{ secrets.SUNSET_WIND_TURBO_TOKEN }}
+          TURBO_TEAM: a2softhouse
 
       - name: Deploy storybook
         working-directory: ./app/docs
