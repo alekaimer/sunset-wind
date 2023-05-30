@@ -1,5 +1,11 @@
 # @sunset-wind/eslint-config
 
+## 1.2.1
+
+### Patch Changes
+
+- Make docs and tokens as private to NPM publish
+
 ## 1.2.0
 
 ### Minor Changes
