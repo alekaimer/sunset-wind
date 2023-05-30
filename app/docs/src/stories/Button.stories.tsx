@@ -14,6 +14,11 @@ export default {
         disable: true,
       },
     },
+    className: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 } as Meta<ButtonProps>
 
