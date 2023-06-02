@@ -1,5 +1,11 @@
 # @sunset-wind/react
 
+## 1.3.2
+
+### Patch Changes
+
+- 5a3578f: Add readme file in project
+
 ## 1.3.1
 
 ### Patch Changes
