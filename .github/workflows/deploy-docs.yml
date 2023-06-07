@@ -1,8 +1,8 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
-    branch:
+  pull_request:
+    branches:
       - release
       - '!main'
       - '!develop'
