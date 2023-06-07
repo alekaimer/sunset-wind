@@ -1,5 +1,11 @@
 # @sunset-wind/react
 
+## 1.3.3
+
+### Patch Changes
+
+- 9e5c350: Add InputText component
+
 ## 1.3.2
 
 ### Patch Changes
