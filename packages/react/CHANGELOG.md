@@ -4,7 +4,11 @@
 
 ### Patch Changes
 
-- 5a3578f: Add readme file in project
+- 8244b2f: Remove Theme interface
+- 8244b2f: Add className as prop to InputText component
+- 8244b2f: Change Button colors
+- cd8b301: Add readme file in project
+- 8244b2f: Add InputText component and stories file
 
 ## 1.3.1
 

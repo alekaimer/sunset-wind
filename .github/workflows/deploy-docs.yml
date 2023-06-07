@@ -1,12 +1,12 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
-    branch:
+  pull_request:
+    branches:
       - release
-    branches-ignore:
-      - main
-      - develop
+      - '!main'
+      - '!develop'
+      - '!*/*'
 
 jobs:
   build-and-deploy:

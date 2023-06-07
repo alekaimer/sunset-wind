@@ -1,11 +1,11 @@
 name: Release and Publish NPM
 on:
-  push:
-    branch:
+  pull_request:
+    branches:
       - release
-    branches-ignore:
-      - main
-      - develop
+      - '!main'
+      - '!develop'
+      - '!*/*'
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 

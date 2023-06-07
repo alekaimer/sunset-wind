@@ -1,4 +1,6 @@
 export const colors = {
+  transparent: 'transparent',
+
   basic: {
     white: '#FFF',
     black: '#000',
@@ -52,9 +54,9 @@ export const colors = {
     100: '#E6E6FF',
     200: '#C6C6DD',
     300: '#9999FF',
-    400: '#7F7FFF',
+    400: '#5D4FA2',
     500: '#4C3F91',
-    600: '#3F3366',
+    600: '#3B2E80',
     700: '#33273C',
     800: '#261B21',
     900: '#1A0F0C',
