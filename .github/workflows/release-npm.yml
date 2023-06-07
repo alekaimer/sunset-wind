@@ -1,6 +1,6 @@
 name: Release and Publish NPM
 on:
-  pull_request:
+  push:
     branches:
       - release
       - '!main'
