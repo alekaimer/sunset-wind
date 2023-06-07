@@ -1,5 +1,11 @@
 # @sunset-wind/react
 
+## 1.3.2
+
+### Patch Changes
+
+- 9f02a6c: Add InputText component and stories file
+
 ## 1.3.1
 
 ### Patch Changes
