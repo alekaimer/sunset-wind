@@ -19,7 +19,12 @@ export function Button({
   return (
     <Component
       className={clsx(
-        'flex items-center justify-center py-3 px-4 bg-primary-500 rounded-full font-semibold text-gray-200 text-sm w-full transition-colors hover:bg-cyan-300 focus:ring-2 ring-white',
+        `
+          flex items-center justify-center py-3 px-4 bg-primary-500 rounded-full font-semibold text-gray-200 text-sm w-full 
+          hover:bg-opacity-80
+          active:bg-primary-400
+          focus:outline-none focus:ring-1 focus:ring-info-default focus:ring-offset-1 focus:ring-offset-info-default
+        `,
         className,
       )}
       {...props}
