@@ -4,9 +4,9 @@ on:
   push:
     branch:
       - release
-    branches-ignore:
-      - main
-      - develop
+      - '!main'
+      - '!develop'
+      - '!*/*'
 
 jobs:
   build-and-deploy:
