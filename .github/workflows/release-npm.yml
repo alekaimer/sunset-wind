@@ -3,9 +3,9 @@ on:
   push:
     branch:
       - release
-    branches-ignore:
-      - main
-      - develop
+      - '!main'
+      - '!develop'
+      - '!*/*'
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
