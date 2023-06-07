@@ -1,5 +1,11 @@
 # @sunset-wind/tokens
 
+## 1.3.3
+
+### Patch Changes
+
+- 8244b2f: Change tokens colors
+
 ## 1.3.2
 
 ### Patch Changes
