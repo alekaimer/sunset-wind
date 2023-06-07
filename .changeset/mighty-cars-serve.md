@@ -2,4 +2,4 @@
 "@sunset-wind/react": patch
 ---
 
-Change Button colors
+Add InputText component
