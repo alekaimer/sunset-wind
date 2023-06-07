@@ -1,5 +1,11 @@
 # @sunset-wind/tokens
 
+## 1.3.3
+
+### Patch Changes
+
+- db199ea: Change tokens colors
+
 ## 1.3.2
 
 ### Patch Changes

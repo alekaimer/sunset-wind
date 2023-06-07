@@ -1,5 +1,11 @@
 # @sunset-wind/react
 
+## 1.3.2
+
+### Patch Changes
+
+- 9ac9576: Remove Theme interface
+
 ## 1.3.1
 
 ### Patch Changes
