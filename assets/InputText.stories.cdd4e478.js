@@ -1,0 +1,2 @@
+import{I as t}from"./index.3d5372fa.js";import"./jsx-runtime.6680135d.js";import"./index.46115cf8.js";import"./iframe.fcaf803c.js";const i={title:"Forms/InputText",component:t,args:{placeholder:"your placeholder text here"}},s={argTypes:{}},a={args:{prefix:"https://",placeholder:"enterWithYourSiteHere.io"}},n=["Default","WithPrefix"];export{s as Default,a as WithPrefix,n as __namedExportsOrder,i as default};
+//# sourceMappingURL=InputText.stories.cdd4e478.js.map
